@@ -35,8 +35,4 @@ export class AppComponent implements OnInit {
     this.valToConvert = toConvert.split(onlyNumber);
     this.remValue = this.valToConvert.map(item => item / this.rootPxFontValue);
   }
-
-  // getRemValue() {
-  //   this.remValue = this.valToConvert.map(item => item / this.rootPxFontValue);
-  // }
 }
